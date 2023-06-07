@@ -1,0 +1,33 @@
+{
+    "name": "@h4v0c/die-rollin",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "dev": "nodemon test/index.ts",
+        "prepublishOnly": "npm run build",
+        "test": "ts-node test/index.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/h4v0c-npm/die-rollin.git"
+    },
+    "keywords": [],
+    "author": "John Wakley <john.wakley@icloud.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/h4v0c-npm/die-rollin/issues"
+    },
+    "homepage": "https://github.com/h4v0c-npm/die-rollin#readme",
+    "devDependencies": {
+        "nodemon": "^2.0.22",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.4"
+    },
+    "dependencies": {
+        "@h4v0c/rng": "^1.0.6",
+        "string-math": "^1.2.2"
+    }
+}
